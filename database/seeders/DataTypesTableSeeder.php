@@ -18,7 +18,7 @@ class DataTypesTableSeeder extends Seeder
                 'name'                  => 'target_lists',
                 'display_name_singular' => __('joy-voyager-bread-target-list::seeders.data_types.target_list.singular'),
                 'display_name_plural'   => __('joy-voyager-bread-target-list::seeders.data_types.target_list.plural'),
-                'icon'                  => 'voyager-bread',
+                'icon'                  => 'voyager-bread voyager-bread-target-list voyager-list',
                 'model_name'            => 'Joy\\VoyagerBreadTargetList\\Models\\TargetList',
                 // 'policy_name'           => 'Joy\\VoyagerBreadTargetList\\Policies\\TargetListPolicy',
                 // 'controller'            => 'Joy\\VoyagerBreadTargetList\\Http\\Controllers\\VoyagerBreadTargetListController',
